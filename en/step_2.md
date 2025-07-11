@@ -56,7 +56,7 @@ See the melody pattern in the Editor.
 
 --- task ---
 
-Press the Play ▶️ button to hear the chosen melody.
+Click the Play ▶️ button to hear the chosen melody.
 
 See the melody pattern in the Editor. 
 
@@ -65,8 +65,8 @@ See the melody pattern in the Editor.
 --- task ---
 
 **Test**
-+ Try different melodies and hear the changes.
-+ Change the notes to change the melody
+- Try different melodies and hear the changes.
+- Change the notes to change the melody
 
 --- /task ---
 
@@ -81,6 +81,6 @@ Keep experimenting until you hear a melody you like.
 When you make a change to a code block in the code editor panel, the simulator will restart.
 
 **Test**
-+ The melody should play until it is done (and then loop because of the `forever`{:class="microbitbasic"} block)
+- The melody should play until it is done (and then loop because of the `forever`{:class="microbitbasic"} block)
 
 --- /task --- 
