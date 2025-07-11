@@ -1,4 +1,4 @@
-# default-project-template
+# Our Beat
 
 ![default-project-template](banner.png)
 

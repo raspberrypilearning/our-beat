@@ -7,5 +7,14 @@ copyedit: false
 last_tested: "2025-01-01"
 steps:
   - title: What you will make
-  - title: Step title
-  - title: What can you do now?
+  - title: Simple melody
+    completion:
+      - engaged
+  - title: micro:bit band
+    completion:
+      - internal
+  - title: Challenge
+    challenge: true
+    completion:
+      - external
+
