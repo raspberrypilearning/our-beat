@@ -30,7 +30,7 @@ Give your new project a name (e.g. 'Our Club') and click **Create**.
 
 --- task ---
 
-From the `Music`{:class="microbitmusic"} menu, drag the `play melody ... at tempo 120 (bpm) [until done]`{:class="microbitmusic"} block and place it inside the `forever`{:class="microbitbasic"} block.
+From the `Music`{:class="microbitmusic"} menu, drag the `play melody ... at tempo 120 (bpm) [until done]`{:class="microbitmusic"}`forever`{:class="microbitbasic"} block. block and place it inside the `forever`{:class="microbitbasic"} block.
 
 ```microbit
 basic.forever(function () {
