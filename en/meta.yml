@@ -10,10 +10,10 @@ steps:
   - title: Simple melody
     completion:
       - engaged
-  - title: micro:bit band
+  - title: Play and stop
     completion:
       - internal
-  - title: Challenge
+  - title: "Challenge: micro:bit band"
     challenge: true
     completion:
       - external
