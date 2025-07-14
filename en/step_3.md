@@ -111,6 +111,8 @@ basic.forever(function () {
 
 When Bass receives 'newBar', it plays in time with the melody.
 
+This Bass works well with our Melody - you can make your own!
+
 --- task ---
 
 Add these blocks inside the else in `on radio received`{class:"microbitradio"}.
