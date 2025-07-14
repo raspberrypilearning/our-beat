@@ -1,14 +1,30 @@
 ## micro:bit band
 
+Use radio to build a micro:bit band!
+
+One micro:bit will play the **Melody**.
+The other micro:bit will play the **Bass**.
+Both micro:bits must be in **Radio Group 22**.
+
+## Set up
+
+Get the micro:bits ready.
+
 --- task ---
 
-Open the MakeCode editor at [makecode.microbit.org](https://makecode.microbit.org){:target="_blank"}.
+Tell the micro:bit that nothing is playing yet.
+Set a radio group so the micro:bits can talk to each other.
+Set the volume to full and show a sleepy face.
+
+```microbit
+instrument = "" // Start as a blank instrument
+playing = false
+radio.setGroup(22)
+music.setVolume(127)
+basic.showIcon(IconNames.Asleep)
+```
 
 --- /task ---
-
-### First micro:bit project?
-
-[[[makecode-tour]]]
 
 ### Create your project
 
@@ -33,9 +49,11 @@ Give your new project a name (e.g. 'Our Club') and click **Create**.
 From the `Music`{:class="microbitmusic"} menu, drag the `play melody ... at tempo 120 (bpm) [until done]`{:class="microbitmusic"} block and place it inside the `forever`{:class="microbitbasic"} block.
 
 ```microbit
-basic.forever(function () {
-    music.play(music.stringPlayable("- - - - - - - - ", 120), music.PlaybackMode.UntilDone)
-})
+instrument = ""
+playing = false
+radio.setGroup(22)
+music.setVolume(127)
+basic.showIcon(IconNames.Asleep)
 ```
 
 --- /task ---
@@ -84,3 +102,11 @@ When you make a change to a code block in the code editor panel, the simulator w
 + The melody should play until it is done (and then loop because of the `forever`{:class="microbitbasic"} block)
 
 --- /task --- 
+
+--- task ---
+
+TODO:
+
+SHARE
+
+--- /task ---

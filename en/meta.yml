@@ -1,10 +1,10 @@
-title: default-project-template
+title: Our beat
 hero_image: images/banner.png
-description: default-project-template description
+description: Use your micro:bit to make a theme tune for your Code Club
 version: 1
 listed: false
 copyedit: false
-last_tested: "2025-01-01"
+last_tested: "2025-07-11"
 steps:
   - title: What you will make
   - title: Simple melody
@@ -17,4 +17,3 @@ steps:
     challenge: true
     completion:
       - external
-

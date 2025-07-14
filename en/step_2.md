@@ -1,5 +1,7 @@
 ## A simple melody
 
+Create your fist tune!
+
 --- task ---
 
 Open the MakeCode editor at [makecode.microbit.org](https://makecode.microbit.org){:target="_blank"}.
@@ -84,3 +86,11 @@ When you make a change to a code block in the code editor panel, the simulator w
 - The melody should play until it is done (and then loop because of the `forever`{:class="microbitbasic"} block)
 
 --- /task --- 
+
+--- task ---
+
+TODO:
+
+SHARE
+
+--- /task ---
