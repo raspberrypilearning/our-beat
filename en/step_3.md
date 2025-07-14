@@ -12,13 +12,15 @@ Get the micro:bits ready.
 
 --- task ---
 
-Tell the micro:bit that nothing is playing yet.
-Set a radio group so the micro:bits can talk to each other.
-Set the volume to full and show a sleepy face.
+- Tell the micro:bit that nothing is playing yet.
+- Set a radio group so the micro:bits can talk to each other.
+- Set the volume to full and show a sleepy face.
 
 ```microbit
-instrument = "" // Start as a blank instrument
+instrument = "" 
+// Start as a blank instrument
 playing = false
+// Tell the micro:bit that nothing is playing yet.
 radio.setGroup(22)
 music.setVolume(127)
 basic.showIcon(IconNames.Asleep)
