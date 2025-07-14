@@ -18,9 +18,7 @@ Get the micro:bits ready.
 
 ```microbit
 instrument = "" 
-// Start as a blank instrument
 playing = false
-// Tell the micro:bit that nothing is playing yet.
 radio.setGroup(22)
 music.setVolume(127)
 basic.showIcon(IconNames.Asleep)
@@ -28,57 +26,106 @@ basic.showIcon(IconNames.Asleep)
 
 --- /task ---
 
-### Create your project
-
-Create and name your project. 
+### Press A for melody
 
 --- task ---
 
-Click on the **New Project** button.
-
-<img src="images/new-project-button.png" alt="The New Project button inside MakeCode." width="250"/>
-
---- /task ---
-
---- task ---
-
-Give your new project a name (e.g. 'Our Club') and click **Create**.
-
---- /task ---
-
---- task ---
-
-From the `Music`{:class="microbitmusic"} menu, drag the `play melody ... at tempo 120 (bpm) [until done]`{:class="microbitmusic"} block and place it inside the `forever`{:class="microbitbasic"} block.
+Check the micro:bit is _not_ set to be a **Melody** instrument.
 
 ```microbit
-instrument = ""
-playing = false
-radio.setGroup(22)
-music.setVolume(127)
-basic.showIcon(IconNames.Asleep)
+input.onButtonPressed(Button.A, function () {
+    if (instrument != "Melody") {
+        instrument = "Melody"
+        playing = true
+        basic.showString("M")
+    }
+})
 ```
 
 --- /task ---
 
 --- task ---
 
-Click on the melody to open the Editor.
+**Test**: 
+Press Button A to start playing the melody.
+The micro:bit will show ‘M’ to tell you it’s ready.
 
 --- /task ---
 
+### Press B for bass
+
+Press Button B to ask another micro:bit to be the Bass.
+
 --- task ---
 
-Switch to the Gallery and choose a melody.
-
-See the melody pattern in the Editor. 
+```microbit
+input.onButtonPressed(Button.B, function () {
+    radio.sendString("Bass")
+})
+```
 
 --- /task ---
 
+### Receive the Bass message
+
+If a micro:bit is not doing anything and hears "Bass", it starts the Bass part.
+
 --- task ---
 
-Press the Play ▶️ button to hear the chosen melody.
+Check the micro:bit is not set to an instrument.
+If it hears 'Bass', it starts the Bass and shows ‘B’.
 
-See the melody pattern in the Editor. 
+```microbit
+radio.onReceivedString(function (receivedString) {
+    if (receivedString == "Bass" && instrument == "") {
+        instrument = "Bass"
+        playing = true
+        basic.showString("B")
+    } else {
+    }
+})
+```
+
+--- /task ---
+
+### Play instruments together
+
+Melody micro:bit plays its tune, then send a signal to tell the Bass when to play.
+
+--- task ---
+
+You can use the melody you created in the last step!
+
+```microbit
+basic.forever(function () {
+    if (instrument == "Melody" && playing) {
+        music.play(music.stringPlayable("G F G A G F A E ", 120), music.PlaybackMode.UntilDone)
+        radio.sendString("newBar")
+    }
+})
+```
+
+--- /task ---
+
+### The bass joins in
+
+When Bass receives 'newBar', it plays in time with the melody.
+
+--- task ---
+
+Add these blocks inside the else in `on radio received`{class:"microbitradio"}.
+
+radio.onReceivedString(function (receivedString) {
+    if (receivedString == "Bass" && instrument == "") {
+        instrument = "Bass"
+        playing = true
+        basic.showString("B")
+    } else {
+        if (receivedString == "newBar" && playing && instrument == "Bass") {
+            music.play(music.stringPlayable("C - C - - C - C ", 120), music.PlaybackMode.UntilDone)
+        }
+    }
+})
 
 --- /task ---
 
