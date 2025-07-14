@@ -115,7 +115,7 @@ This Bass works well with our Melody - you can make your own!
 
 --- task ---
 
-Add these blocks inside the else in `on radio received`{class:"microbitradio"}.
+Add these blocks inside the else in `on radio received`{class="microbitradio"}.
 
 ```microbit
 radio.onReceivedString(function (receivedString) {
