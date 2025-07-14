@@ -48,7 +48,7 @@ input.onButtonPressed(Button.A, function () {
 
 **Test**: 
 Press Button A to start playing the melody.
-The micro:bit will show ‘M’ to tell you it’s ready.
+The micro:bit will show ‘M’.
 
 --- /task ---
 
@@ -117,6 +117,7 @@ This Bass works well with our Melody - you can make your own!
 
 Add these blocks inside the else in `on radio received`{class:"microbitradio"}.
 
+```microbit
 radio.onReceivedString(function (receivedString) {
     if (receivedString == "Bass" && instrument == "") {
         instrument = "Bass"
@@ -128,30 +129,42 @@ radio.onReceivedString(function (receivedString) {
         }
     }
 })
+```
 
 --- /task ---
 
 --- task ---
 
 **Test**
-+ Try different melodies and hear the changes.
-+ Change the notes to change the melody
++ Press A to start the melody.
++ Press B to start the bass on another micro:bit.
+
+--- /task ---
+
+### Pause and play again
+
+--- task ---
+
+Check if a micro:bit is set as an instrument.
+
+If it is, change the playing state.
+
+```microbit
+input.onGesture(Gesture.Shake, function () {
+    if (instrument != "") {
+        playing = !(playing)
+        basic.showIcon(IconNames.Asleep)
+    }
+})
+```
 
 --- /task ---
 
 --- task ---
 
-Keep experimenting until you hear a melody you like.
-
---- /task ---
-
---- task ---
-
-When you make a change to a code block in the code editor panel, the simulator will restart.
-
-**Test**
-+ The melody should play until it is done (and then loop because of the `forever`{:class="microbitbasic"} block)
-
+**Test**: 
+- Shake the micro:bit to pause the music and show a sleepy face..
+- Shake again to start.
 --- /task --- 
 
 --- task ---
