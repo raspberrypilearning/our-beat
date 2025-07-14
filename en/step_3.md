@@ -71,12 +71,14 @@ input.onButtonPressed(Button.A, function () {
 
 From the `Logic`{:class='microbitlogic'} menu, drag an `if`{:class='microbitlogic'} block inside your forever{:class='microbitbasic'} block.
 
+```microbit
 basic.forever(function () {
     if (true) {
     	
     }
     music.play(music.stringPlayable("G F G A G F A E ", 120), music.PlaybackMode.UntilDone)
 })
+```
 
 --- /task ---
 
@@ -86,7 +88,7 @@ Place your melody inside the `if`{:class='microbitlogic'} block.
 
 ```microbit
 basic.forever(function () {
-    if (playing) {
+    if (true) {
         music.play(music.stringPlayable("G F G A G F A E ", 120), music.PlaybackMode.UntilDone)
     }
 })
