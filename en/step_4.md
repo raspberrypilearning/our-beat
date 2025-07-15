@@ -4,7 +4,6 @@ Use radio to build a micro:bit band!
 
 One micro:bit will play the **Melody**.
 The other micro:bit will play the **Bass**.
-Both micro:bits must be in **Radio Group 22**.
 
 ### Set up
 
@@ -13,8 +12,8 @@ Get the micro:bits ready.
 --- task ---
 
 - Tell the micro:bit that nothing is playing yet.
-- Set a radio group so the micro:bits can talk to each other.
-- Set the volume to full and show a sleepy face.
+- Set a radio group so the micro:bits can talk to each other. Both micro:bits must be in the same **radio group**.
+- Set the volume and show a sleepy face.
 
 ```microbit
 instrument = "" 
@@ -46,8 +45,7 @@ input.onButtonPressed(Button.A, function () {
 
 --- task ---
 
-**Test**: 
-Press Button A to start playing the melody.
+**Test**: Press Button A to start playing the melody.
 The micro:bit will show ‘M’.
 
 --- /task ---
@@ -68,7 +66,7 @@ input.onButtonPressed(Button.B, function () {
 
 ### Receive the Bass message
 
-If a micro:bit is not doing anything and hears "Bass", it starts the Bass part.
+If a micro:bit is not doing anything and hears 'Bass', it starts the Bass part.
 
 --- task ---
 
@@ -90,7 +88,7 @@ radio.onReceivedString(function (receivedString) {
 
 ### Play instruments together
 
-Melody micro:bit plays its tune, then send a signal to tell the Bass when to play.
+The Melody micro:bit plays its tune, then sends a signal to tell the Bass when to play.
 
 --- task ---
 

@@ -69,7 +69,7 @@ input.onButtonPressed(Button.A, function () {
 
 --- task ---
 
-From the `Logic`{:class='microbitlogic'} menu, drag an `if`{:class='microbitlogic'} block inside your forever{:class='microbitbasic'} block.
+From the `Logic`{:class='microbitlogic'} menu, drag an `if`{:class='microbitlogic'} block inside your `forever`{:class='microbitbasic'} block.
 
 ```microbit
 basic.forever(function () {
@@ -94,7 +94,7 @@ basic.forever(function () {
 })
 ```
 
-The melody will play as `true` is the default.
+**Notice**: The melody will play because `true` is the default.
 
 --- /task ---
 
@@ -110,7 +110,7 @@ basic.forever(function () {
 })
 ```
 
-Now, the melody will only play if playing is set true by the Button.
+Now, the melody will only play if the 'playing' variable is set to `true` by the Button.
 
 --- /task ---
 
@@ -118,9 +118,9 @@ Now, the melody will only play if playing is set true by the Button.
 
 **Test**:
 
-Press Button A to set playing true (starting the melody playing).
+Press Button A to set 'playing' `true` (starting the melody).
 
-Press Button A again to set playing false (and stop it playing).
+Press Button A again to set 'playing' `false` (stopping the melody).
 
 --- /task ---
 
