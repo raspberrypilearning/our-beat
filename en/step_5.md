@@ -189,10 +189,12 @@ From the `Input`{:class='microbitinput'} menu, drag two `on button`{:class='micr
 
 Change one to use Button 'B'.
 
+```microbit
 input.onButtonPressed(Button.A, function () {
 })
 input.onButtonPressed(Button.B, function () {
 })
+```
 
 --- /task ---
 
@@ -202,12 +204,14 @@ From the `Music`{:class='microbitmusic'} menu, drag two `play tone`{:class='micr
 
 We have used 'Low C' and 'Low F', but you can use any tone you like!
 
+```microbit
 input.onButtonPressed(Button.A, function () {
     music.play(music.tonePlayable(131, music.beat(BeatFraction.Whole)), music.PlaybackMode.InBackground)
 })
 input.onButtonPressed(Button.B, function () {
     music.play(music.tonePlayable(175, music.beat(BeatFraction.Whole)), music.PlaybackMode.InBackground)
 })
+```
 
 --- /task ---
 
