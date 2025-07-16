@@ -4,7 +4,7 @@ The micro:bit V2 has drum sounds you can use. These are not available in the mic
 
 Create a drum pattern and use buttons to play bass notes.
 
-### Set the tempo!
+### Set the tempo!
 
 There is no pattern editor for drums, but you can still create a drum beat!
 
@@ -44,7 +44,7 @@ input.onLogoEvent(TouchButtonEvent.Pressed, function () {
 
 --- /task ---
 
-### First - the kick drum
+### First - the kick drum
 
 --- task ---
 
@@ -96,7 +96,7 @@ input.onLogoEvent(TouchButtonEvent.Pressed, function () {
 
 --- /task ---
 
-### A four-four beat
+### A four-four beat
 
 --- task ---
 
@@ -178,7 +178,7 @@ input.onLogoEvent(TouchButtonEvent.Pressed, function () {
 
 --- /task ---
 
-### Add some bass tones
+### Add some bass tones
 
 Trigger the bass tones with buttons.
 
