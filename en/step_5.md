@@ -1,4 +1,4 @@
-## micro:bit V2 challenge - Drum loop
+## micro:bit V2 Drum loop
 
 The micro:bit V2 has drum sounds you can use. These are not available in the micro:bit V1.
 
