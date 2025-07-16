@@ -4,7 +4,7 @@
 
 --- task ---
 
-From the `Input`{:class='microbitinput'} menu, drag an `on button`{:class='microbitinput'} block to the editor panel.
+From the `Input`{:class='microbitinput'} menu, drag an `on button`{:class='microbitinput'} block to the Editor panel.
 
 ```microbit
 input.onButtonPressed(Button.A, function () {
@@ -33,7 +33,7 @@ From the `Variables`{:class='microbitvariables'} menu, drag a `set playing`{:cla
 
 ```microbit
 input.onButtonPressed(Button.A, function () {
-    playing = 0
+    playing = (0)
 })
 ```
 
