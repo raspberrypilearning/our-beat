@@ -1,6 +1,7 @@
-## micro:bit V2 challenge: Drums and bass
+## micro:bit V2 challenge: Drum loop
 
-The micro:bit V2 has drum sounds you can use. These are not available in the micro:bit V1.
+The micro:bit V2 has drum sounds you can use. 
+These are not available in the micro:bit V1.
 
 Create a drum pattern and use buttons to play bass notes.
 

@@ -13,7 +13,9 @@ steps:
   - title: Play and stop
     completion:
       - internal
-  - title: "Challenge: micro:bit band"
+  - title: "Challenge: build a band"
+    challenge: true
+  - title: "Challenge: micro:bit V2 - Drum loop"
     challenge: true
     completion:
       - external
