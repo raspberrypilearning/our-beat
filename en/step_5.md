@@ -12,6 +12,10 @@ There is no pattern editor for drums, but you can still create a drum beat!
 
 From the `Music`{:class='microbitmusic'} menu, drag a `set tempo`{:class='microbitmusic'} block inside the `on start`{:class='microbitbasic'} block on the Editor panel.
 
+```microbit
+music.setTempo(120)
+```
+
 --- /task ---
 
 ### Trigger the drums!
