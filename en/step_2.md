@@ -36,7 +36,7 @@ From the `Music`{:class="microbitmusic"} menu, drag the `play melody ... at temp
 
 ```microbit
 basic.forever(function () {
-    music.play(music.stringPlayable("- - - - - - - - ", 120), music.PlaybackMode.UntilDone)
+    music.play(music.stringPlayable("- - - - - - - - ", "120"), music.PlaybackMode.UntilDone)
 })
 ```
 
