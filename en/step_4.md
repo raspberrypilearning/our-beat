@@ -11,6 +11,25 @@ Get the micro:bits ready.
 
 --- task ---
 
+Open the `Variables`{:class='microbitvariables'} menu and click **Make a Variable**.
+
+Name your new variable `instrument`. 
+
+--- /task ---
+
+--- task ---
+
+From the `Text`{:class='microbittext'} menu, drag a blank string block inside the `0`.
+
+```microbit
+instrument = "" 
+playing = false
+```
+
+--- /task ---
+
+--- task ---
+
 - Tell the micro:bit that nothing is playing yet.
 - Set a radio group so the micro:bits can talk to each other. Both micro:bits must be in the same **radio group**.
 - Set the volume and show a sleepy face.
