@@ -30,6 +30,7 @@ Click on the **New Project** button.
 --- /task ---
 
 --- task ---
+### Make a melody
 
 4. From the `Music`{:class="microbitmusic"} menu, drag the `play melody ... at tempo 120 (bpm) [until done]`{:class="microbitmusic"} block and place it inside the `forever`{:class="microbitbasic"} block.
 
@@ -64,6 +65,7 @@ See the melody pattern in the Editor.
 --- /task ---
 
 --- task ---
+### Listen and Tune
 
 8. **Test**
 - Try different melodies and hear the changes.

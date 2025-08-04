@@ -6,7 +6,7 @@ One micro:bit will play the **Melody**.
 The other micro:bit will play the **Bass**.
 
 --- task ---
-### Set up
+## Set up
 
 1. Open the `Variables`{:class='microbitvariables'} menu and click **Make a Variable**.
 
@@ -81,7 +81,6 @@ input.onButtonPressed(Button.B, function () {
 
 
 --- task ---
-
 ### Receive the Bass message
 
 If a micro:bit is not doing anything and hears 'Bass', it starts the Bass part.
