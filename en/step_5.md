@@ -176,7 +176,7 @@ input.onLogoEvent(TouchButtonEvent.Pressed, function () {
 
 --- task ---
 
-12. **Try**: Change the tempo value 
+12. **Try**: Change the tempo value.
 
 **Test**: Press the touch logo and listen to your beat.
 
@@ -225,7 +225,7 @@ input.onButtonPressed(Button.B, function () {
 --- task ---
 ### Light and movement
 
-16. **Try**: Replace the tone (e.g. 'Low C') with the `light level`{:class='microbitinput'} so the tone changes as you move your hand over your micro:bit. 
+16. **Try**: Replace the tone (e.g. 'Low C') with the `light level`{:class='microbitinput'} so that the tone changes as you move your hand over your micro:bit. 
 
 ```microbit
 input.onButtonPressed(Button.A, function () {
