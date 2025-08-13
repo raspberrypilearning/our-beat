@@ -1,6 +1,6 @@
 ## What you will make
 
-🎼 Use your micro:bit to make a theme tune for your Code Club 🎶 🥁 🎸 🎹
+🎼 Use your BBC micro:bit to make a theme tune for your Code Club 🎶 🥁 🎸 🎹
 
 --- print-only ---
 TODO:
@@ -29,11 +29,11 @@ Click A again to stop.
 
 --- collapse ---
 ---
-title: V1 micro:bit users
+title: micro:bit V1 users
 ---
 
-The speaker output is only available on the V2 micro:bit. You will need to connect external headphones/speakers to play sound on the V1. You will still be able to play the sound on the simulator.
+The speaker output is only available on the micro:bit V2. You will need to connect external headphones or speakers to play sound on the micro:bit V1. You will still be able to play the sound on the simulator.
 
-Here is a [guide to connecting headphones/speakers to the V1 micro:bit](https://makecode.microbit.org/projects/hack-your-headphones/make){:target="_blank"}.
+Here is a [guide to connecting headphones and speakers to the micro:bit V1](https://makecode.microbit.org/projects/hack-your-headphones/make){:target="_blank"}.
 
 --- /collapse ---
