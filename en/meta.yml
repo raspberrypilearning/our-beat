@@ -2,8 +2,8 @@ title: Our beat
 hero_image: images/banner.png
 description: Use your micro:bit to make a theme tune for your Code Club
 version: 1
-listed: false
-copyedit: false
+listed: true
+copyedit: true
 last_tested: "2025-07-11"
 steps:
   - title: What you will make
