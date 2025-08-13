@@ -7,7 +7,7 @@ copyedit: false
 last_tested: "2025-07-11"
 steps:
   - title: What you will make
-  - title: Simple melody
+  - title: A simple melody
     completion:
       - engaged
   - title: Play and stop
@@ -15,7 +15,7 @@ steps:
       - internal
   - title: "Challenge: build a band"
     challenge: true
-  - title: "Challenge: micro:bit V2 - Drum loop"
+  - title: "Challenge: micro:bit V2 drum loop"
     challenge: true
     completion:
       - external
