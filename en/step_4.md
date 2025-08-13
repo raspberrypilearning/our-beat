@@ -44,7 +44,7 @@ basic.showIcon(IconNames.Asleep)
 --- task ---
 ### Press 'A' for melody
 
-4. Check the micro:bit is _not_ set to be a **melody** instrument.
+4. Check that the micro:bit is _not_ set to be a **melody** instrument.
 
 ```microbit
 input.onButtonPressed(Button.A, function () {
@@ -69,7 +69,7 @@ The micro:bit will show ‘M’.
 --- task ---
 ### Press 'B' for bass
 
-6. Add code so that you can press Button B to ask another micro:bit to be the bass.
+6. Add code so that you can press button B to ask another micro:bit to be the bass.
 
 ```microbit
 input.onButtonPressed(Button.B, function () {
