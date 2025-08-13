@@ -28,7 +28,7 @@ playing = false
 --- task ---
 3. Add this code, which will: 
 - Tell the micro:bit that nothing is playing yet.
-- Set a radio group so the micro:bits can communicate with each other. Both micro:bits must be in the same **radio group**.
+- Set a radio group so that the micro:bits can communicate with each other. Both micro:bits must be in the same **radio group**.
 - Set the volume and show a sleepy face.
 
 ```microbit
