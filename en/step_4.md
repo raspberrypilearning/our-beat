@@ -104,7 +104,7 @@ radio.onReceivedString(function (receivedString) {
 --- task ---
 ### Play instruments together
 
-8. The melody micro:bit plays its tune, then sends a signal to tell the bass when to play.
+8. The melody micro:bit plays its tune, then sends a signal to tell the bass micro:bit when to play.
 
 You can use the melody you created in the last step!
 
@@ -124,9 +124,9 @@ basic.forever(function () {
 
 9. When the bass micro:bit receives 'newBar', it plays in time with the melody.
 
-This bass works well with our melody - you can make your own!
+This bass works well with our melody — but you can try making your own!
 
-Add these blocks inside the else in `on radio received`{:class="microbitradio"}:
+Add these blocks inside the 'else' in `on radio received`{:class="microbitradio"}:
 
 ```microbit
 radio.onReceivedString(function (receivedString) {
@@ -155,9 +155,9 @@ radio.onReceivedString(function (receivedString) {
 --- task ---
 ### Pause and play again
 
-11. Check if a micro:bit is set as an instrument.
+11. Check whether the micro:bits are set as instruments.
 
-If it is, change the playing state.
+If either of them are, change the playing state.
 
 ```microbit
 input.onGesture(Gesture.Shake, function () {
