@@ -69,7 +69,7 @@ The micro:bit will show ‘M’.
 --- task ---
 ### Press 'B' for bass
 
-6. Add code so that you can press button B to ask another micro:bit to be the bass.
+6. Add code so that you can press button B to tell another micro:bit to be the bass.
 
 ```microbit
 input.onButtonPressed(Button.B, function () {
@@ -85,7 +85,7 @@ input.onButtonPressed(Button.B, function () {
 
 If a micro:bit is not doing anything and receives the bass message, it starts the bass part.
 
-7. Check the micro:bit is not set to an instrument.
+7. Check that the micro:bit is not set to an instrument.
 If it receives the bass message, it starts the bass and shows ‘B’.
 
 ```microbit
@@ -122,7 +122,7 @@ basic.forever(function () {
 --- task ---
 ### The bass joins in
 
-9. When Bass receives 'newBar', it plays in time with the melody.
+9. When the bass micro:bit receives 'newBar', it plays in time with the melody.
 
 This bass works well with our melody - you can make your own!
 
