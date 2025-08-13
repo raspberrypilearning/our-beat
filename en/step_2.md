@@ -58,17 +58,17 @@ See the melody pattern in the Editor.
 
 --- task ---
 
-7. Click the Play ▶️ button to hear the chosen melody.
+7. Click the play ▶️ button to hear the chosen melody.
 
 See the melody pattern in the Editor. 
 
 --- /task ---
 
 --- task ---
-### Listen and Tune
+### Listen and tune
 
 8. **Test**
-- Try different melodies and hear the changes.
+- Try different melodies and hear the changes
 - Change the notes to change the melody
 
 --- /task ---
