@@ -3,7 +3,7 @@
 --- task ---
 ### Button A
 
-1. From the `Input`{:class='microbitinput'} menu, drag an `on button`{:class='microbitinput'} block to the Editor panel.
+1. From the `Input`{:class='microbitinput'} menu, drag an `on button`{:class='microbitinput'} block to the code editor panel.
 
 ```microbit
 input.onButtonPressed(Button.A, function () {
@@ -24,7 +24,7 @@ Name your new variable `playing`.
 --- /task ---
 
 --- task ---
-### Playing / not playing
+### Playing or not playing
 
 3. From the `Variables`{:class='microbitvariables'} menu, drag a `set playing`{:class='microbitvariables'} block inside the `on button`{:class='microbitinput'} block. 
 
@@ -36,7 +36,7 @@ input.onButtonPressed(Button.A, function () {
 
 --- /task ---
 
-4. Use a `not`{:class='microbitlogic'} to change `playing` between true and false.
+4. Use a `not`{:class='microbitlogic'} block to change `playing` between true and false.
 
 --- task ---
 
@@ -106,7 +106,7 @@ basic.forever(function () {
 })
 ```
 
-Now, the melody will only play if the 'playing' variable is set to `true` by the Button.
+Now, the melody will only play if the 'playing' variable is set to `true` by the button.
 
 --- /task ---
 
@@ -114,9 +114,9 @@ Now, the melody will only play if the 'playing' variable is set to `true` by the
 
 10. **Test**:
 
-Press Button A to set 'playing' `true` (starting the melody).
+Press button A to set 'playing' to `true` (starting the melody).
 
-Press Button A again to set 'playing' `false` (stopping the melody).
+Press button A again to set 'playing' to `false` (stopping the melody).
 
 --- /task ---
 
