@@ -1,4 +1,4 @@
-## Challenge: Build a band
+## Challenge — Build a band
 
 Use radio to build a micro:bit band!
 
