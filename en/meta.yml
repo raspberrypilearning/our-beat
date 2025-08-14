@@ -1,0 +1,21 @@
+title: Our beat
+hero_image: images/banner.png
+description: Use your micro:bit to make a theme tune for your Code Club
+version: 1
+listed: true
+copyedit: true
+last_tested: "2025-07-11"
+steps:
+  - title: What you will make
+  - title: A simple melody
+    completion:
+      - engaged
+  - title: Play and stop
+    completion:
+      - internal
+  - title: "Challenge: Build a band"
+    challenge: true
+  - title: "Challenge: micro:bit V2 drum loop"
+    challenge: true
+    completion:
+      - external
