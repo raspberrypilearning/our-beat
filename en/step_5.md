@@ -9,7 +9,7 @@ Create a drum pattern and use buttons to play bass notes.
 
 There is no pattern editor for drums, but you can still create a drum beat!
 
-1. From the `Music`{:class='microbitmusic'} menu, drag a `set tempo`{:class='microbitmusic'} block inside the `on start`{:class='microbitbasic'} block on the code editor panel.
+From the `Music`{:class='microbitmusic'} menu, drag a `set tempo`{:class='microbitmusic'} block inside the `on start`{:class='microbitbasic'} block on the code editor panel.
 
 ```microbit
 music.setTempo(120)
@@ -22,7 +22,7 @@ music.setTempo(120)
 --- task ---
 ### Trigger the drums!
 
-2. From the `Input`{:class='microbitinput'} menu, drag an `on logo`{:class='microbitinput'} block to the code editor panel.
+From the `Input`{:class='microbitinput'} menu, drag an `on logo`{:class='microbitinput'} block to the code editor panel.
 
 ```microbit
 input.onLogoEvent(TouchButtonEvent.Pressed, function () {
@@ -35,7 +35,7 @@ input.onLogoEvent(TouchButtonEvent.Pressed, function () {
 --- task ---
 ### Drum loop
 
-3. From the `Loops`{:class='microbitloops'} menu, drag a `while`{:class='microbitloops'} block inside the `on logo`{:class='microbitinput'} block.
+From the `Loops`{:class='microbitloops'} menu, drag a `while`{:class='microbitloops'} block inside the `on logo`{:class='microbitinput'} block.
 
 Change `false`{:class='microbitlogic'} to `true`{:class='microbitlogic'}.
 
@@ -51,7 +51,7 @@ input.onLogoEvent(TouchButtonEvent.Pressed, function () {
 --- task ---
 ### First, the kick drum
 
-4. From the micro:bit V2 section of the `Music`{:class='microbitmusic'} menu, drag a `play (🎵 ---)`{:class='microbitmusic'} block and place it in the `while`{:class='microbitloops'} block.
+From the micro:bit V2 section of the `Music`{:class='microbitmusic'} menu, drag a `play (🎵 ---)`{:class='microbitmusic'} block and place it in the `while`{:class='microbitloops'} block.
 
 Click the 🎵 symbol, then 'Gallery' and choose the kick drum.
 
@@ -71,7 +71,7 @@ input.onLogoEvent(TouchButtonEvent.Pressed, function () {
 --- task ---
 ### Add a pause 
 
-5. From the `Basic`{:class='microbitbasic'} menu, drag a `pause`{:class='microbitbasic'} block under your kick drum sound.
+From the `Basic`{:class='microbitbasic'} menu, drag a `pause`{:class='microbitbasic'} block under your kick drum sound.
 
 ```microbit
 input.onLogoEvent(TouchButtonEvent.Pressed, function () {
@@ -86,7 +86,7 @@ input.onLogoEvent(TouchButtonEvent.Pressed, function () {
 
 --- task ---
 
-6. From the `Music`{:class='microbitmusic'} menu, drag a `1 beat`{:class='microbitmusic'} block and place it in the `500`.
+From the `Music`{:class='microbitmusic'} menu, drag a `1 beat`{:class='microbitmusic'} block and place it in the `500`.
 
 ```microbit
 input.onLogoEvent(TouchButtonEvent.Pressed, function () {
@@ -103,7 +103,7 @@ input.onLogoEvent(TouchButtonEvent.Pressed, function () {
 --- task ---
 ### A four-four beat
 
-7. Copy your `play (🎵 ---)`{:class='microbitmusic'} and `pause`{:class='microbitbasic'} blocks three times, so you have four beats and four pauses.
+Copy your `play (🎵 ---)`{:class='microbitmusic'} and `pause`{:class='microbitbasic'} blocks three times, so you have four beats and four pauses.
 
 ```microbit
 input.onLogoEvent(TouchButtonEvent.Pressed, function () {
@@ -123,19 +123,19 @@ input.onLogoEvent(TouchButtonEvent.Pressed, function () {
 
 --- task ---
 
-8. **Test**: Press the touch logo and listen to your beat.
+**Test**: Press the touch logo and listen to your beat.
   
 --- /task --- 
 
 --- task ---
 
-9. Change the 2nd and 4th drum sound from kick drum to snare.
+Change the 2nd and 4th drum sound from kick drum to snare.
 
 --- /task ---
 
 --- task ---
 
-10. **Test**: Press the touch logo and listen to your beat.
+**Test**: Press the touch logo and listen to your beat.
   
 --- /task --- 
 
@@ -143,7 +143,7 @@ input.onLogoEvent(TouchButtonEvent.Pressed, function () {
 
 --- task ---
 
-11. Experiment with different pauses and drum sounds.
+Experiment with different pauses and drum sounds.
 
 **Note**: Your pauses should always add up to 4 beats.
 
@@ -176,7 +176,7 @@ input.onLogoEvent(TouchButtonEvent.Pressed, function () {
 
 --- task ---
 
-12. **Try**: Change the tempo value.
+**Try**: Change the tempo value.
 
 **Test**: Press the touch logo and listen to your beat.
 
@@ -185,7 +185,7 @@ input.onLogoEvent(TouchButtonEvent.Pressed, function () {
 --- task ---
 ### Add some bass tones
 
-13. From the `Input`{:class='microbitinput'} menu, drag two `on button`{:class='microbitinput'} blocks to the code editor panel.
+From the `Input`{:class='microbitinput'} menu, drag two `on button`{:class='microbitinput'} blocks to the code editor panel.
 
 Change one to use the B button.
 
@@ -200,7 +200,7 @@ input.onButtonPressed(Button.B, function () {
 
 --- task ---
 
-14. From the `Music`{:class='microbitmusic'} menu, drag two `play tone`{:class='microbitmusic'} blocks and place one in each `on button`{:class='microbitinput'} block.
+From the `Music`{:class='microbitmusic'} menu, drag two `play tone`{:class='microbitmusic'} blocks and place one in each `on button`{:class='microbitinput'} block.
 
 We have used 'Low C' and 'Low F', but you can use any tone you like!
 
@@ -217,7 +217,7 @@ input.onButtonPressed(Button.B, function () {
 
 --- task ---
 
-15. **Test**: Touch the logo to play your drum loop and press the A and B buttons in time with the beat!
+**Test**: Touch the logo to play your drum loop and press the A and B buttons in time with the beat!
 
 --- /task ---
 
@@ -225,7 +225,7 @@ input.onButtonPressed(Button.B, function () {
 --- task ---
 ### Light and movement
 
-16. **Try**: Replace the tone (e.g. 'Low C') with the `light level`{:class='microbitinput'} so that the tone changes as you move your hand over your micro:bit. 
+**Try**: Replace the tone (e.g. 'Low C') with the `light level`{:class='microbitinput'} so that the tone changes as you move your hand over your micro:bit. 
 
 ```microbit
 input.onButtonPressed(Button.A, function () {

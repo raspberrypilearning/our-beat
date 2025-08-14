@@ -4,7 +4,7 @@ Create your first tune!
 
 --- task ---
 
-1. Open the MakeCode editor at [makecode.microbit.org](https://makecode.microbit.org){:target="_blank"}.
+Open the MakeCode editor at [makecode.microbit.org](https://makecode.microbit.org){:target="_blank"}.
 
 --- /task ---
 
@@ -15,7 +15,7 @@ Create your first tune!
 --- task ---
 ### Create your project
 
-2. Create and name your project: 
+Create and name your project: 
 
 Click on the **New Project** button.
 
@@ -25,14 +25,14 @@ Click on the **New Project** button.
 
 --- task ---
 
-3. Give your new project a name (e.g. 'Our Club') and click **Create**.
+Give your new project a name (e.g. 'Our Club') and click **Create**.
 
 --- /task ---
 
 --- task ---
 ### Make a melody
 
-4. From the `Music`{:class="microbitmusic"} menu, drag the `play melody ... at tempo 120 (bpm) [until done]`{:class="microbitmusic"} block and place it inside the `forever`{:class="microbitbasic"} block.
+From the `Music`{:class="microbitmusic"} menu, drag the `play melody ... at tempo 120 (bpm) [until done]`{:class="microbitmusic"} block and place it inside the `forever`{:class="microbitbasic"} block.
 
 ```microbit
 basic.forever(function () {
@@ -44,13 +44,13 @@ basic.forever(function () {
 
 --- task ---
 
-5. Click on the melody to open the Editor.
+Click on the melody to open the Editor.
 
 --- /task ---
 
 --- task ---
 
-6. Switch to the Gallery and choose a melody.
+Switch to the Gallery and choose a melody.
 
 See the melody pattern in the Editor. 
 
@@ -58,7 +58,7 @@ See the melody pattern in the Editor.
 
 --- task ---
 
-7. Click the play ▶️ button to hear the chosen melody.
+Click the play ▶️ button to hear the chosen melody.
 
 See the melody pattern in the Editor. 
 
@@ -67,7 +67,7 @@ See the melody pattern in the Editor.
 --- task ---
 ### Listen and tune
 
-8. **Test**
+**Test**
 - Try different melodies and hear the changes
 - Change the notes to change the melody
 
@@ -75,13 +75,13 @@ See the melody pattern in the Editor.
 
 --- task ---
 
-9. Keep experimenting until you hear a melody you like.
+Keep experimenting until you hear a melody you like.
 
 --- /task ---
 
 --- task ---
 
-10. When you make a change to a code block in the code editor panel, the simulator will restart.
+When you make a change to a code block in the code editor panel, the simulator will restart.
 
 **Test**
 - The melody should play until it is done (and then loop because of the `forever`{:class="microbitbasic"} block)
