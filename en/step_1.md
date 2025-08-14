@@ -2,7 +2,7 @@
 
 🎼 Use your BBC micro:bit to make a theme tune for your Code Club 🎶 🥁 🎸 🎹
 
-**UNPLUGGED** [Download](resources/sound-sequence.pdf){:target="_blank"} the 'Sound sequence' warm up activity.
+**UNPLUGGED**: [Download](resources/unplugged-sound-sequence.pdf){:target="_blank"} the 'Sound sequence' warm up activity.
 
 --- print-only ---
 TODO:
