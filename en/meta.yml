@@ -1,6 +1,6 @@
 title: Our beat
 hero_image: images/banner.png
-description: Use your micro:bit to make a theme tune for your Code Club
+description: Use your microbit to make a theme tune for your Code Club
 pdf: resources/rpi-our-beat.pdf
 version: 1
 listed: false
@@ -14,9 +14,9 @@ steps:
   - title: Play and stop
     completion:
       - internal
-  - title: "Challenge: Build a band"
+  - title: Challenge — Build a band
     challenge: true
-  - title: "Challenge: micro:bit V2 drum loop"
+  - title: Challenge — microbit V2 drum loop
     challenge: true
     completion:
       - external
