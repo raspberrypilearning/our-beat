@@ -13,16 +13,17 @@ TODO:
 
 --- task ---
 <div style="display: flex; flex-wrap: wrap">
-<div style="flex-basis: 175px; flex-grow: 1">  
+<div style="flex-basis: 200px; flex-grow: 1">
 
 Click the A button to start a melody.
 Click A again to stop. 
 
 **Notice**: The melody does not stop until it has finished.
 
+</div>
+
 <div style="position:relative;height:0;padding-bottom:125%;overflow:hidden;"><iframe style="position:absolute;top:0;left:0;width:100%;height:100%;" src="https://makecode.microbit.org/---run?id=S95780-80011-49234-87416" allowfullscreen="allowfullscreen" sandbox="allow-popups allow-forms allow-scripts allow-same-origin" frameborder="0"></iframe></div>
 
-</div>
 </div>
 
 --- /task ---
