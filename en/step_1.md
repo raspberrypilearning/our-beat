@@ -18,25 +18,7 @@ TODO:
 
 Click the A button to start a melody.
 
-🎼
-
 Click A again to stop. 
-
-🎼
-
-🎼
-
-🎼
-
-🎼
-
-🎼
-
-🎼
-
-🎼
-
-🎼
 
 **Notice**: The melody does not stop until it has finished.
 
