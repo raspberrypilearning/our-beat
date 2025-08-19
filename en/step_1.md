@@ -1,6 +1,6 @@
 ## What you will make
 
-🎼 Use your BBC micro:bit to make a theme tune for your Code Club 🎶 🥁 🎸 🎹
+🎼 Use your BBC micro:bit to create a theme tune for your Code Club 🎶 🥁 🎸 🎹
 
 **UNPLUGGED**: [Download](resources/unplugged-sound-sequence.pdf){:target="_blank"} the 'Sound sequence' warm up activity.
 
