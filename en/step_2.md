@@ -1,6 +1,6 @@
 ## A simple melody
 
-Make your first tune!
+Create your first tune!
 
 --- task ---
 
