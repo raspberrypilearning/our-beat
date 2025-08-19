@@ -1,4 +1,4 @@
-## What you will make
+## What you will make!
 
 🎼 Use your BBC micro:bit to make a theme tune for your Code Club 🎶 🥁 🎸 🎹
 
