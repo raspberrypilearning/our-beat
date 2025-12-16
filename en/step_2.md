@@ -13,6 +13,7 @@ Open the MakeCode editor at [makecode.microbit.org](https://makecode.microbit.or
 [[[makecode-tour]]]
 
 --- task ---
+
 ### Create your project
 
 Create and name your project: 
@@ -30,6 +31,7 @@ Give your new project a name (e.g. 'Our Club') and click **Create**.
 --- /task ---
 
 --- task ---
+
 ### Make a melody
 
 From the `Music`{:class="microbitmusic"} menu, drag the `play melody ... at tempo 120 (bpm) [until done]`{:class="microbitmusic"} block and place it inside the `forever`{:class="microbitbasic"} block.
@@ -65,6 +67,7 @@ See the melody pattern in the Editor.
 --- /task ---
 
 --- task ---
+
 ### Listen and tune
 
 **Test**

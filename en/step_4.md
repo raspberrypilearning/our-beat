@@ -6,6 +6,7 @@ One micro:bit will play the **melody**.
 The other micro:bit will play the **bass**.
 
 --- task ---
+
 ## Setup
 
 Open the `Variables`{:class='microbitvariables'} menu and click **Make a Variable**.
@@ -26,6 +27,7 @@ playing = false
 --- /task ---
 
 --- task ---
+
 Add this code, which will: 
 - Tell the micro:bit that nothing is playing yet.
 - Set a radio group so that the micro:bits can communicate with each other. Both micro:bits must be in the same **radio group**.
@@ -42,6 +44,7 @@ basic.showIcon(IconNames.Asleep)
 --- /task ---
 
 --- task ---
+
 ### Press 'A' for melody
 
 Check that the micro:bit is _not_ set to be a **melody** instrument.
@@ -67,6 +70,7 @@ The micro:bit will show ‘M’.
 
 
 --- task ---
+
 ### Press 'B' for bass
 
 Add code so that you can press button B to tell another micro:bit to be the bass.
@@ -81,6 +85,7 @@ input.onButtonPressed(Button.B, function () {
 
 
 --- task ---
+
 ### Receive the bass message
 
 If a micro:bit is not doing anything and receives the bass message, it starts the bass part.
@@ -102,6 +107,7 @@ radio.onReceivedString(function (receivedString) {
 --- /task ---
 
 --- task ---
+
 ### Play instruments together
 
 1. The melody micro:bit plays its tune, then sends a signal to tell the bass micro:bit when to play.
@@ -120,6 +126,7 @@ basic.forever(function () {
 --- /task ---
 
 --- task ---
+
 ### The bass joins in
 
 When the bass micro:bit receives 'newBar', it plays in time with the melody.
@@ -153,6 +160,7 @@ radio.onReceivedString(function (receivedString) {
 --- /task ---
 
 --- task ---
+
 ### Pause and play again
 
 Check whether the micro:bits are set as instruments.
@@ -175,6 +183,7 @@ input.onGesture(Gesture.Shake, function () {
 **Test**: 
 - Shake the micro:bit to pause the music and show a sleepy face
 - Shake again to start
+
 --- /task --- 
 
 Share your tune with us!

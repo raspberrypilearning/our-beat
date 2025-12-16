@@ -5,8 +5,10 @@
 **UNPLUGGED**: [Download](resources/unplugged-sound-sequence.pdf){:target="_blank"} the 'Sound sequence' warm up activity.
 
 --- print-only ---
+
 TODO:
 ![ALT TEXT](images/IMAGE.png)
+
 --- /print-only ---
 
 --- no-print ---
