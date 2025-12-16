@@ -5,6 +5,7 @@ The micro:bit V2 has drum sounds you can use. These are not available for the mi
 Create a drum pattern and use buttons to play bass notes.
 
 --- task ---
+
 ### Set the tempo!
 
 There is no pattern editor for drums, but you can still create a drum beat!
@@ -20,6 +21,7 @@ music.setTempo(120)
 
 
 --- task ---
+
 ### Trigger the drums!
 
 From the `Input`{:class='microbitinput'} menu, drag an `on logo`{:class='microbitinput'} block to the code editor panel.
@@ -33,6 +35,7 @@ input.onLogoEvent(TouchButtonEvent.Pressed, function () {
 
 
 --- task ---
+
 ### Drum loop
 
 From the `Loops`{:class='microbitloops'} menu, drag a `while`{:class='microbitloops'} block inside the `on logo`{:class='microbitinput'} block.
@@ -49,6 +52,7 @@ input.onLogoEvent(TouchButtonEvent.Pressed, function () {
 --- /task ---
 
 --- task ---
+
 ### First, the kick drum
 
 From the micro:bit V2 section of the `Music`{:class='microbitmusic'} menu, drag a `play (🎵 ---)`{:class='microbitmusic'} block and place it in the `while`{:class='microbitloops'} block.
@@ -69,6 +73,7 @@ input.onLogoEvent(TouchButtonEvent.Pressed, function () {
 
 
 --- task ---
+
 ### Add a pause 
 
 From the `Basic`{:class='microbitbasic'} menu, drag a `pause`{:class='microbitbasic'} block under your kick drum sound.
@@ -101,6 +106,7 @@ input.onLogoEvent(TouchButtonEvent.Pressed, function () {
 
 
 --- task ---
+
 ### A four-four beat
 
 Copy your `play (🎵 ---)`{:class='microbitmusic'} and `pause`{:class='microbitbasic'} blocks three times, so you have four beats and four pauses.
@@ -183,6 +189,7 @@ input.onLogoEvent(TouchButtonEvent.Pressed, function () {
 --- /task ---
 
 --- task ---
+
 ### Add some bass tones
 
 From the `Input`{:class='microbitinput'} menu, drag two `on button`{:class='microbitinput'} blocks to the code editor panel.
@@ -223,6 +230,7 @@ input.onButtonPressed(Button.B, function () {
 
 
 --- task ---
+
 ### Light and movement
 
 **Try**: Replace the tone (e.g. 'Low C') with the `light level`{:class='microbitinput'} so that the tone changes as you move your hand over your micro:bit. 

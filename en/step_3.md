@@ -1,6 +1,7 @@
 ## Play and stop
 
 --- task ---
+
 ### Button A
 
 From the `Input`{:class='microbitinput'} menu, drag an `on button`{:class='microbitinput'} block to the code editor panel.
@@ -13,6 +14,7 @@ input.onButtonPressed(Button.A, function () {
 --- /task ---
 
 --- task ---
+
 ### Add a variable
 
 Use a variable to track if the melody is playing.
@@ -24,6 +26,7 @@ Name your new variable `playing`.
 --- /task ---
 
 --- task ---
+
 ### Playing or not playing
 
 From the `Variables`{:class='microbitvariables'} menu, drag a `set playing`{:class='microbitvariables'} block inside the `on button`{:class='microbitinput'} block. 
@@ -63,6 +66,7 @@ input.onButtonPressed(Button.A, function () {
 --- /task ---
 
 --- task ---
+
 ### Play the melody when playing is true
 
 From the `Logic`{:class='microbitlogic'} menu, drag an `if`{:class='microbitlogic'} block inside your `forever`{:class='microbitbasic'} block.
