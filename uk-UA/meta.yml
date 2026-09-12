@@ -1,0 +1,22 @@
+title: Наш ритм
+hero_image: images/banner.png
+description: Напиши мелодію для Code Club за допомогою Bbc microbit 🎶 🥁 🎸 🎹
+pdf: resources/rpi-our-beat.pdf
+version: 1
+listed: true
+copyedit: true
+last_tested: "2025-07-11"
+steps:
+  - title: Що ти зробиш
+  - title: Проста мелодія
+    completion:
+      - engaged
+  - title: Відтворити та зупинити
+    completion:
+      - internal
+  - title: Додаткове завдання - збери групу
+    challenge: true
+  - title: Додаткове завдання - барабанна петля microbit V2
+    challenge: true
+    completion:
+      - external
