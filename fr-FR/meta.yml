@@ -1,0 +1,22 @@
+title: Notre rythme
+hero_image: images/banner.png
+description: Utilise ton microbit pour créer un thème musical pour ton Code Club
+pdf: resources/rpi-our-beat.pdf
+version: 1
+listed: true
+copyedit: true
+last_tested: "2025-07-11"
+steps:
+  - title: Ce que tu vas faire
+  - title: Une mélodie simple
+    completion:
+      - engaged
+  - title: Jouer et arrêter
+    completion:
+      - internal
+  - title: Défi — Former un groupe
+    challenge: true
+  - title: Défi — boucle de batterie microbit V2
+    challenge: true
+    completion:
+      - external
