@@ -1,0 +1,22 @@
+title: Onze beat
+hero_image: images/banner.png
+description: 'Gebruik je micro: bit om een themaliedje te maken voor jouw Code Club'
+pdf: resources/rpi-our-beat.pdf
+version: 1
+listed: true
+copyedit: true
+last_tested: "2025-07-11"
+steps:
+  - title: Wat ga je maken
+  - title: Een eenvoudige melodie
+    completion:
+      - engaged
+  - title: Afspelen en stoppen
+    completion:
+      - internal
+  - title: Uitdaging - Maak een band
+    challenge: true
+  - title: 'Uitdaging — drumloop met de micro: bit V2'
+    challenge: true
+    completion:
+      - external
